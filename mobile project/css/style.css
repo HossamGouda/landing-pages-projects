@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+header.header {
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header.header .overlay {
+    background-color: rgba(239, 71, 58, 0.8);
+    padding-top: 90px;
+    position: relative;
+}
+
+header.header .overlay .header-block {
+    margin-top: 120px;
+}
+
+header.header .overlay .header-block .header-brand {
+    margin-bottom: 50px;
+}
+
+header.header .overlay .header-block h1 {
+    font-size: 30px;
+    color: #fff;
+    line-height: 38px;
+    margin-bottom: 60px;
+}
+
+header.header .overlay .header-block p {
+    font-size: 18px;
+    line-height: 33px;
+    color: #fff;
+    margin-bottom: 85px;
+}
+
+header.header .overlay .header-buttons a img {
+    width: 250px;
+}
+
+header.header .overlay .header-buttons a:last-child img {
+    height: 65px;
+}
+
+header.header .overlay .header-img img {
+    max-width: 100%;
+    position: absolute;
+    bottom: -210px;
+}
+
+section.feature {
+    padding: 80px 0;
+    background-color: #fff;
+    position: relative;
+}
+
+section.feature .features {
+    margin-top: 90px;
+}
+
+section.feature .features.text-left {
+    direction: ltr;
+}
+
+section.feature .features .d-flex {
+    margin-bottom: 70px;
+}
+
+section.feature .features .d-flex .flex-shrink-0 i {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    color: #fff;
+    background-color: #ef473a;
+    text-align: center;
+    display: block;
+    border-radius: 2px;
+}
+
+section.feature .features .d-flex h5 {
+    font-size: 24px;
+    color: #080808;
+    margin-bottom: 12px;
+}
+
+section.feature .features .d-flex p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #757474;
+}
+
+section.feature .feature-img img {
+    width: 80%;
+}
+
+section.option {
+    padding-top: 120px;
+    background-color: #f9f8f8;
+    position: relative;
+}
+
+section.option .options {
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+section.option .options .d-flex {
+    margin-bottom: 60px;
+}
+
+section.option .options .d-flex h5 {
+    font-size: 24px;
+    line-height: 40px;
+    color: #141414;
+}
+
+section.option .options .d-flex p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #757474;
+}
+
+section.option .option-img {
+    position: absolute;
+    bottom: -150px;
+}
+
+section.slider {
+    background-color: #fff;
+    padding: 80px 0;
+    position: relative;
+}
+
+section.slider .slider-text h3 {
+    font-size: 36px;
+    color: #141414;
+    margin-bottom: 60px;
+}
+
+section.slider .slider-carousel .carousel-inner {
+    width: 60%;
+    margin: auto;
+}
+
+section.slider .slider-carousel .carousel-control-prev,
+section.slider .slider-carousel .carousel-control-next {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ef473a;
+    border-radius: 50%;
+    color: #ef473a;
+    opacity: 1;
+    margin-top: 130px;
+}
+
+section.slider .slider-carousel .carousel-indicators {
+    bottom: -60px;
+}
+
+section.slider .slider-carousel .carousel-indicators button {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ef473a;
+    border-radius: 50%;
+}
+
+section.slider .slider-carousel .carousel-indicators button.active {
+    background-color: #ef473a;
+}
+
+section.faq {
+    background-image: url(../images/bg-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.faq .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 70px 0;
+}
+
+section.faq .overlay .faq-title h3 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+section.faq .overlay .accordion .accordion-item {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 0;
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button {
+    background-color: transparent;
+    font-size: 18px;
+    color: #fff;
+    border-bottom: 0;
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button::after{
+    content: none;
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button i {
+    margin-right: auto;
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button.collapsed i {
+    transform: rotate(180deg);
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 0;
+}
+
+section.faq .overlay .accordion .accordion-body p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #c9c9c9;
+}
+
+
+footer.footer {
+    background-color: #232323;
+    padding-top: 70px;
+}
+
+footer.footer .top-footer {
+    border-bottom: 2px solid #292828;
+    padding-bottom: 90px;
+}
+
+footer.footer .top-footer .widget h4 {
+    font-size: 24px;
+    color: #f4f8fb;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #292828;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+footer.footer .top-footer .widget h4::after {
+    content: "";
+    width: 90px;
+    height: 2px;
+    background-color: #ef473a;
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+}
+
+footer.footer .top-footer .widget p.aboutus-p {
+    font-size: 18px;
+    line-height: 40px;
+    color: #757474;
+    margin-bottom: 100px;
+}
+
+footer.footer .top-footer .widget li.list-inline-item a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #353638;
+    color: #fff;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .5s ease;
+}
+
+footer.footer .top-footer .widget li.list-inline-item a:hover {
+    background-color: #ef473a;
+}
+
+footer.footer .top-footer .widget ul.tweets {
+    list-style: none;
+    padding: 0;
+}
+
+footer.footer .top-footer .widget ul.tweets li:not(:last-child) {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #292828;
+}
+
+footer.footer .top-footer .widget ul.tweets li p {
+    font-size: 15px;
+    color: #757474;
+    line-height: 24px;
+    display: inline;
+    margin-right: 5px;
+}
+
+footer.footer .top-footer .widget ul.tweets li i {
+    color: #ef473a;
+}
+
+footer.footer .top-footer .widget form input {
+    font-size: 14px;
+    color: #c6c6c6;
+    line-height: 25px;
+    border: 0;
+    margin-bottom: 15px;
+    background-color: #2c2b2b;
+    border-radius: 0;
+    text-align: right;
+}
+
+footer.footer .top-footer .widget form button {
+    font-size: 14px;
+    color: #fff;
+    line-height: 25px;
+    background-color: #ef473a;
+    border-radius: 0;
+}
+
+footer.footer .top-footer .widget form .invalid-feedback {
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+footer.footer .copyright {
+    font-size: 15px;
+    color: #565656;
+    line-height: 75px;
+    text-align: center;
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    header.header .overlay {
+        padding: 0;
+    }
+
+    header.header .overlay .header-img img {
+        right: 50px;
+    }
+
+    section.feature .features .d-flex {
+        margin-bottom: 40px;
+    }
+
+    section.feature .features .d-flex h5 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    section.feature .features .d-flex p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    section.feature .feature-img img {
+        margin-top: 80px;
+    }
+
+    section.option {
+        padding-top: 50px;
+    }
+
+    section.option .option-img {
+        top: 50px;
+        right: 50px;
+    }
+
+    section.option .option-img img {
+        width: 75%;
+    }
+
+    section.slider .slider-carousel .carousel-control-prev, 
+    section.slider .slider-carousel .carousel-control-next {
+        margin-top: 60px;
+    }
+    
+    footer.footer .top-footer .widget li.list-inline-item a {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    header.header .overlay {
+        padding-top: 0;
+        padding-bottom: 400px;
+        text-align: center;
+    }
+
+    header.header .overlay .header-img img {
+        bottom: -500px;
+        right: 25%;
+    }
+
+    section.feature .features {
+        margin-top: 50px;
+    }
+
+    section.option {
+        padding-top: 0;
+        padding-bottom: 400px;
+    }
+
+    section.option .option-img {
+        bottom: -300px;
+    }
+
+    section.slider .slider-carousel .carousel-control-prev, 
+    section.slider .slider-carousel .carousel-control-next {
+        display: none;
+    }
+
+    section.slider .slider-carousel .carousel-inner {
+        width: 90%;
+    }
+}
